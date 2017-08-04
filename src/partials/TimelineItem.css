@@ -1,0 +1,23 @@
+@media only screen and (min-width: 601px) {
+    .timeline-item {
+        width: calc(50% - 1rem);
+    }
+}
+.timeline-item:nth-child(2n+1):not(.on-right) .timeline-badge, .timeline-item.on-left .timeline-badge {
+    right: -2.5rem;
+}
+.timeline-item:nth-child(2n):not(.on-left) .timeline-badge, .timeline-item.on-right .timeline-badge {
+    left: -2.5rem;
+}
+.timeline-item {
+    position: relative;
+    padding: 0 1rem 1rem 1rem;
+}
+.logsnotes {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    font-size: small;
+}

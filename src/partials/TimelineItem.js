@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './TimelineItem.css'
 
 export default class TimelineItem extends Component {
     render () {
